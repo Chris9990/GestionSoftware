@@ -5,7 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwrooy\" />
+    <Compile Remove="wwwrooy\**" />
+    <Content Remove="wwwrooy\**" />
+    <EmbeddedResource Remove="wwwrooy\**" />
+    <None Remove="wwwrooy\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\js\" />
   </ItemGroup>
 
 </Project>
